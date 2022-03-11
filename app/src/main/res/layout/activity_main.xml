@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8f3dc"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btntoast"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2d6a4f"
+        android:text="@string/toast"
+        android:textColor="#d8f3dc"
+        android:textStyle="bold"
+        android:onClick="showToast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/countbutton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2d6a4f"
+        android:text="@string/count"
+        android:textAlignment="center"
+        android:textColor="#d8f3dc"
+        android:textStyle="bold"
+        android:onClick="countUp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/showCount"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#b7e4c7"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textAlignment="center"
+        android:textColor="#1b4332"
+        android:textSize="160sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/countbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btntoast" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
