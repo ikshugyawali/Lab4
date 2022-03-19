@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab4CodingChallenge</string>
+    <string name="text_one">Text One</string>
+    <string name="text_two">Text Two</string>
+    <string name="text_three">Text Three</string>
+    <string name="passage_one"> <b>"Advocate's Day"</b> is celebrated on 3 December every year. This is the birthday of Dr. Rajendra Prasad, the first President of India. He was born on December 3, 1884 in Jiradei, a small village in Bihar. The anniversary of his birth is celebrated every year on 3 December as Advocate's Day by the advocate community.Dr. Rajendra Prasad was a scholar advocate himself. He was one of the prominent leaders of the Indian independence movement who played a prominent role as the President of the Indian National Congress. He also contributed to the making of the Indian Constitution.</string>
+\n\n
+    <string name="passage_two"> <b>He was the first President of independent India.</b> He declared his leave in the year 1962 after serving as President for 12 years. Being very popular in the whole country, he was called as Rajendra Babu or Desharatna. He was awarded the highest honor Bharat Ratna of the country in the year 1962 by the Government of India for his outstanding works.</string>
+    \n\n
+    <string name="passage_three"><b>Dr. Rajendra</b> Prasad will always remain an inspiration for the nation for his rock-like ideals and superior Indian values.
+His birth anniversary is celebrated all over the country. Cultural programs are organized by advocate community at various places on the occasion of Advocates Day. On this day, seminars are organized at various places.Senior advocates are honored. Wreaths are offered on the statue of Dr. Rajendra Prasad and tribute is paid to him.</string>
+</resources>
