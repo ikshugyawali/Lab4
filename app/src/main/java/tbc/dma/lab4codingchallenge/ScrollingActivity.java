@@ -14,7 +14,7 @@ public class ScrollingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_scrolling);
         Intent intent = getIntent();
         TextView textView = findViewById(R.id.text_passage);
-        String message = intent.getStringExtra(String.valueOf(MainActivity.EXTRA_MESSAGE));
+        String message = intent.getStringExtra((MainActivity.EXTRA_MESSAGE));
         textView.setText(message);
     }
 }

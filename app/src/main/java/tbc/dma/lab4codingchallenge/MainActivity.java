@@ -25,11 +25,11 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, ScrollingActivity.class);
         String message = "";
         if (text == getString(R.string.text_one)) {
-            message = getString(R.string.text_one);
+            message = getString(R.string.passage_one);
         } else if (text == getString(R.string.text_two))
-            message = getString(R.string.text_two);
+            message = getString(R.string.passage_two);
         else if (text == getString(R.string.text_three))
-            message = getString(R.string.text_three);
+            message = getString(R.string.passage_three);
         i.putExtra(EXTRA_MESSAGE, message);
         startActivity(i);
     }
