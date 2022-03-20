@@ -12,7 +12,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#2d6a4f"
-        android:text="@string/toast"
+        android:text="@string/say_hello"
         android:textColor="#d8f3dc"
         android:textStyle="bold"
         android:onClick="showToast"
